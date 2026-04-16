@@ -17,5 +17,12 @@ void input()
             break;
         }
         else
+        {
+            cout << "\n[!] Jumlah elemen tidak boleh dari 10. silakan coba lagi.\n";
+        }
     }
 }
+
+cout << "\n===========================================\n";
+caou << "        Masukkan Elemen Array                \n";
+cout << "=============================================\n";
