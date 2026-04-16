@@ -59,6 +59,20 @@ void diisplay()
 
     for (int j = 0; j < nPanjang ; j++)
     {
-        
+        cout << element[j];
+        if (j < nPanjang - 1)
+        {
+            cout << " -> ";
+        }
     }
+    cout << endl;
 }
+
+void BinarySearch()
+{
+    char ulang;
+    do
+    {
+        cout << "\n=========================================\n";
+        cout << "          Pencarian Binary Search          \n";
+        cout << "===========================================\n";
